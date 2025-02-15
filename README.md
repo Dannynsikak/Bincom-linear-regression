@@ -30,7 +30,7 @@ This project performs Linear Regression Analysis on a dataset of car prices. It 
 🔧 Installation & Setup
 1️⃣ Clone the repository
 
-    git clone https://github.com/your-username/Bincom-linear-regression.git
+    git clone https://github.com/Dannynsikak/Bincom-linear-regression.git
 
 cd Bincom-linear-regression
 2️⃣ Create a virtual environment (optional but recommended)
@@ -78,17 +78,19 @@ The plot is saved as:
 
 actual_vs_predicted_car_prices.png
 Example Plot:
+![plotted graph](actual_vs_predicted_car_prices.png)
 
 🛠️ Model Evaluation Metrics
-Mean Absolute Error (MAE) – Measures the average absolute difference between actual and predicted values.
-Mean Squared Error (MSE) – Penalizes large errors more than small ones.
-Root Mean Squared Error (RMSE) – Similar to MSE but in the same units as the target variable.
-R² Score – Measures how well the independent variables explain the variance in price (closer to 1 is better).
-📌 Future Improvements
-🔹 Add more features (e.g., fuel type, transmission, brand).
-🔹 Use polynomial regression for better predictions.
-🔹 Train on a larger dataset for better generalization.
-🔹 Integrate with a web interface for user input.
+
+    Mean Absolute Error (MAE) – Measures the average absolute difference between actual and predicted values.
+    Mean Squared Error (MSE) – Penalizes large errors more than small ones.
+    Root Mean Squared Error (RMSE) – Similar to MSE but in the same units as the target variable.
+    R² Score – Measures how well the independent variables explain the variance in price (closer to 1 is better).
+    📌 Future Improvements
+    🔹 Add more features (e.g., fuel type, transmission, brand).
+    🔹 Use polynomial regression for better predictions.
+    🔹 Train on a larger dataset for better generalization.
+    🔹 Integrate with a web interface for user input.
 
 💡 Conclusion
 This project demonstrates how machine learning can predict car prices using Linear Regression. By optimizing features and improving the dataset, we can build a more robust pricing model.
